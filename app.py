@@ -65,13 +65,3 @@ for fund in selected_funds:
 
 st.markdown("---")
 st.caption("🔍 Source: Google News RSS | ⚙️ Built with Streamlit by Ishu Pandey")
-Traceback:
-File "/mount/src/newsbook/app.py", line 65, in <module>
-    data = get_news(fund, time_period)
-File "/mount/src/newsbook/app.py", line 28, in get_news
-    df["pubDate"] = pd.to_datetime(df["pubDate"], errors="coerce")
-                                   ~~^^^^^^^^^^^
-File "/home/adminuser/venv/lib/python3.13/site-packages/pandas/core/frame.py", line 4113, in __getitem__
-    indexer = self.columns.get_loc(key)
-File "/home/adminuser/venv/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
-    raise KeyError(key) from err
