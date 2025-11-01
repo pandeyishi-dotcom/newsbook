@@ -65,7 +65,6 @@ for fund in selected_funds:
 
 st.markdown("---")
 st.caption("🔍 Source: Google News RSS | ⚙️ Built with Streamlit by Ishu Pandey")
-.
 Traceback:
 File "/mount/src/newsbook/app.py", line 65, in <module>
     data = get_news(fund, time_period)
